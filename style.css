@@ -1,3 +1,38 @@
+HTML {
+  Height:100%;
+}
+
 body {
-  background-color: lightpink;
+  background-color: #1f1b1d;
+  color: #e6aaca;
+  Height:100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  Height:100%;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  border-right: solid;
+}
+
+.left-container div {
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.profile {
+  align-self: center;
+}
+
+a:link{
+  color: #e6aaca;
+}
+ 
+.links {
+  font-size: 28px;
 }
